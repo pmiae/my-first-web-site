@@ -5,7 +5,65 @@
     <mata charset="utf-8>"
  
 </haed>
+<style>
+    body {
+        margin: 0px;
+    }
+   
+ 
+ a {
+color: black;
+text-decoration: none;
+}
 
+h1{
+    font-size: 45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding: 20px;
+
+}
+#grid  {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid ol{
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding: 22px;
+}
+#article { 
+    padding:25px;
+
+}
+#grid {
+    padding: 15px;
+}
+
+
+@media (max-width:1000px) {
+#grid  {
+    display: block;
+    grid-template-columns: 150px 1fr;
+ }
+ ol{
+    border-right:none;
+}
+h1{
+    border-bottom:none;
+}
+}
+</style> 
+
+<body>
+    <style>
+        a {
+    color:red; 
+    text-decoration:none;
+ }
+</style> 
 <body>
     <style>
         h1 {
@@ -32,14 +90,6 @@ and <u>web</u> applications
    <P><iframe width="560" height="315" src="https://www.youtube.com/embed/_QiiA_UoeRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></P>
 </body>
 
-
-<body>
-    <style>
-        a {
-    color:red; 
-    text-decoration:none;
- }
-</style> 
     <h1><a href="index.html">WEB</a></h1>
     <ol>
         <li><a href="1.html" style="text-decoration:Underline">HTML</a></li>
